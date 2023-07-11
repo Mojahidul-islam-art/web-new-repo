@@ -163,7 +163,7 @@ main section {
 }
 
 .container {
-    margin: 150px 30px;
+    margin: 0px;
 }
 
 .skills-container {
@@ -239,4 +239,41 @@ main section {
     /* Enable flexbox layout */
     margin-top: 50px;
     margin-left: 400px;
+    margin-bottom: 0px;
+}
+
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.max-container {
+    width: 50%;
+}
+
+.action input,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+}
+
+.btn-btn {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    padding: 18px 35px 19px 36px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
 }
